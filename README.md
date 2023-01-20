@@ -1,8 +1,6 @@
 # Geodistance
 A simple & minimal geodistance php library to calculate geo distance between two points (latitude, longitude) using [Harvesine formula](https://www.wikiwand.com/en/Haversine_formula)
 
-This package disappeared from Github so I cloned it.
-
 ## Installation
 
 ``` bash
@@ -40,3 +38,8 @@ echo meters($new_york, $los_angeles); // 3935755
 ## License
 
 Geodistance PHP is licensed under the MIT license. See [License File](LICENSE) for more information.
+
+## Release info
+
+This package disappeared from Github the 20th January, 2023, so I cloned it. 
+I added the FilippoToso prefix to the namespace to avoid naming collisions.

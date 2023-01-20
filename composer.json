@@ -1,7 +1,12 @@
 {
-    "name": "0x13a/geodistance-php",
+    "name": "filippo-toso/geodistance-php",
     "description": "Calculate geodistance between two points, latitude and longitude",
-    "keywords": ["geodistance", "gps", "distance", "harvesine"],
+    "keywords": [
+        "geodistance",
+        "gps",
+        "distance",
+        "harvesine"
+    ],
     "type": "library",
     "license": "MIT",
     "minimum-stability": "stable",
@@ -9,17 +14,21 @@
         {
             "name": "diegomariani",
             "email": "diego.mariani@mail.com"
+        },
+        {
+            "name": "Filippo Toso",
+            "email": "filippo@toso.dev"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Geodistance\\": "src"
+            "FilippoToso\\Geodistance\\": "src"
         }
     },
     "autoload-dev": {
-    	"psr-4": {
-	    "GeodistanceTest\\": "tests"
-	}
+        "psr-4": {
+            "FilippoToso\\GeodistanceTest\\": "tests"
+        }
     },
     "require": {
         "php": ">=5.3.3"

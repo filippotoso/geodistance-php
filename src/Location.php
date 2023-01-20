@@ -1,6 +1,6 @@
 <?php
 
-namespace Geodistance;
+namespace FilippoToso\Geodistance;
 
 class Location
 {
@@ -55,8 +55,8 @@ function meters(Location $x, Location $y, int $precision = 0)
     $angle = asin(
         sqrt(
             pow(sin($deltaLatitude * 0.5), 2)
-            + cos($x->latitude()) * cos($y->latitude())
-            * pow(sin($deltaLongitude * 0.5), 2)
+                + cos($x->latitude()) * cos($y->latitude())
+                * pow(sin($deltaLongitude * 0.5), 2)
         )
     ) * 2;
 
